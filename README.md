@@ -1,6 +1,6 @@
 #  :robot: `msgbot`
 
- **📦  Automatesierung and service messenger bots writed in [🦀 **Rust**](https://github.com/asmolkov/msgbot)**
+ **📦  Automatesierung and service telegramm messenger bots writed in [🦀 **Rust**](https://github.com/asmolkov/msgbot)**
 
 🚧 _Work In Progress_ 🚧
 
@@ -20,68 +20,26 @@
 [issue]: https://img.shields.io/github/issues/lar-rs/uv?style=flat-square
 [min-rust-badge]: https://img.shields.io/badge/rustc-1.38+-blue.svg
 [quanta]: https://docs.rs/quanta/0.3.1/quanta/
-[QuickTOCuv]: https://www.lar.com/de/produkte/toc-analyse/toc-analysator-quicktocuv.html
 
-[![travis build Status](https://travis-ci.com/lar-rs/uv.svg?branch=master)](https://travis-ci.com/lar-rs/uv)
+[![travis build Status](https://travis-ci.com/asmolkov/msgbot.svg?branch=master)](https://travis-ci.com/asmolkov/msgbot)
 ![open issue][issue]
 ![Minimum Rust Version][min-rust-badge]
 
-## Telegram Bot 
 
+## 🔬 Command
 
-
-### 🔬 `@larpwa_bot`
-```
-help - 📖 usage information
-state - 🎛 status
-set - 🔧 change parameter */set pwa.m1.name neue method name*
-get - 🔧 parameter value and description */get pwa.m1.name* return method name
-run - 📢 command */run irrigatron.action.gp1.start*
-mod - 🔄 mod */mod interval* for interval run
-stop - ⛔ all runned comman and 🔄 to ready
-```
-### :robot: `@Irrigatron_bot`
-```
-help - 📖 bot usage help info
-state - 🎛 status
-set - 🔧 change parameter */set irrigatron.v1.name hier wohnt UFO*
-get - 📅 parameter value and description */get irrigatron.v1.name* return method name
-run - 📢 command */run irrigatron.action.gp1.start*
-mod - 🔄 mod */mod interval* for interval run
-stop - ⛔ all runned comman and 🔄 to ready
-```
-
-
-### 🎮 hardware
-
-* ⚙️  `GearPump`
-* 🔧 `Relay`
-*  `Sensor`
-* 🔩 `Valve`
-* ⚡  `Lamp`
-* 📟 `Relay`
-* ⚙  `Axis`
-* 🧯 `Furnace`
-* ⚙️  `Autosampler`
-* 🚴 `Indicators`
-* 🧰 `Uv`
-* 🔋 `Batterie`
-
-
-#
-*Pull requests for more mock implementations are welcome! :)*
-
-
-## ⚠ no\_std ⛔
-
-Currently this crate is not `no_std`. If you think this is important, let me
-know.
+* **help**  - 📖 help
+* **state** - 🎛 status
+* **set**   - 🔧 change parameter
+* **get**   - 📅 parameter value
+* **run**   - 📢 command
+* **hold**  - ⛔ stop -> 🔄hold
 
 
 ## Usage ⛔
 
-See [docs](https://docs.rs/embedded-hal-mock/).
-Rust embedded hal [github](https://github.com/rust-embedded/embedded-hal)
+See [docs](https://docs.rs).
+Rust embedded hal [github](https://github.com/smolkov/msgbot)
 
 <!-- Badges -->
 [min-rust-badge]: https://img.shields.io/badge/rustc-1.31+-blue.svg

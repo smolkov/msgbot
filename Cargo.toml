@@ -42,4 +42,7 @@ telegram-bot = {git="https://github.com/telegram-rs/telegram-bot"}
 tokio = "0.2.0-alpha.6"
 futures-preview = "=0.3.0-alpha.19"
 # bot-framework = "0.1"
-# mio={path="../mio"}
+systemstat="0.1.5"
+lazy_static ="1.4.0"
+mio={path="../mio"}
+sysinfo = "0.9.6"

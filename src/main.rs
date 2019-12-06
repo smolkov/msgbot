@@ -14,13 +14,11 @@ async fn main() -> Result<(), Error> {
 
     let api = Api::new(token);
     let mut stream = api.stream();
-
     while let Some(update) = stream.next().await {
         let update = update?;
         if let UpdateKind::Message(message) = update.kind {
            cmd::message_handler(api.clone(), message).await?;
         }
     }
-
     Ok(())
 }
